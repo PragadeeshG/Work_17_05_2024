@@ -1,0 +1,16 @@
+create table if not exists factory_support_launcher_mapping(
+set_id Integer not null,
+factory_support_id Integer null,
+mapping_set_id Integer null,
+department varchar(255) null,
+business_indicator Integer null,
+factory_support_Mapped_to_function char null,
+is_active char null,
+function_name varchar(255) null,
+function_type varchar(255) null,
+creation_cr varchar(255) null,
+modified_cr varchar(255) null,
+creation_date varchar(255) null,
+modified_date varchar(255) null,
+entity_state varchar(255) null,
+constraint factory_support_launcher_mapping_pk primary key(set_id));
